@@ -5,20 +5,23 @@ kernel modules.
 
 ## Resources
 
-https://docs.kernel.org/
-https://kernelnewbies.org/
-https://elixir.bootlin.com/linux/v7.0.1/source
-https://wiki.qemu.org/Documentation/9psetup
+- https://docs.kernel.org/
+- https://kernelnewbies.org/
+- https://elixir.bootlin.com/linux/v7.0.1/source
+- https://wiki.qemu.org/Documentation/9psetup
 
 ## Steps to create the kernel
 
-Build kernel with 
+Follow https://github.com/bluedragon1221/minlinux2
+
+Build kernel with for console output
+```
 CONFIG_SERIAL_8250=y
 CONFIG_SERIAL_8250_CONSOLE=y
+```
 
 Also enable virtio for P9
 
-Follow https://github.com/bluedragon1221/minlinux2
 
 ## Generating the RAMFS for QEMU
 
