@@ -1,0 +1,3 @@
+::sysinit:/bin/hostname HOSTNAME
+::sysinit:/bin/mount -a
+console::respawn:/bin/sh
